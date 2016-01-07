@@ -374,15 +374,15 @@
                 };
 
                 function keyDown(e) {
-                    if (e.which >= 49 && e.which <= 57) {
-                        $scope.gotoStep(e.which - 48);
-                        return;
-                    }
+                    //if (e.which >= 49 && e.which <= 57) {
+                    //    $scope.gotoStep(e.which - 48);
+                    //    return;
+                    //}
                     switch (e.which) {
-                        case 37:
-                            $scope.previous();
-                            prevent(e);
-                            return;
+                        //case 37:
+                        //    $scope.previous();
+                        //    prevent(e);
+                        //    return;
                         case 39:
                             $scope.next();
                             prevent(e);
